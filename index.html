@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Task</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo"><img src="assets/Logo.png" /></div>
+      <div class="nav-links" id="navLinks">
+        <li class="nav-link"><a href="#">Home</a></li>
+        <li class="nav-link" id="resources"><a href="#">Resources</a></li>
+        <li class="nav-link"><a href="#">Pricing</a></li>
+      </div>
+      <div class="dropdown" id="dropdown">
+        <div class="left-column">
+            <div class="dropdown-item">
+                <span class="icon">📘</span>
+                <div>
+                    <h3>Blog</h3>
+                    <p>The latest industry news, updates and info.</p>
+                </div>
+            </div>
+
+            <div class="dropdown-item">
+                <span class="icon">⚡</span>
+                <div>
+                    <h3>Customer stories</h3>
+                    <p>Learn how our customers are making big changes.</p>
+                </div>
+            </div>
+
+            <div class="dropdown-item">
+                <span class="icon">▶️</span>
+                <div>
+                    <h3>Video tutorials</h3>
+                    <p>Get up and running on new features and techniques.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-column">
+            <img class="resourcesimage" src="assets/resourcesimage.png" alt="Update Image">
+            <div class="update-info">
+                <h3>We've just released an update!</h3>
+                <p>Check out the all new dashboard view. Pages now load faster.</p>
+                <span>Dismiss | <a href="#">Changelog</a></span>
+            </div>
+        </div>
+    </div>
+      <div class="auth-buttons" id="authButtons">
+        <button class="login-btn">Login</button>
+        <button class="signup-btn">Sign Up</button>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1>Grow your users.<br />Smarter.</h1>
+      <p>
+        Powerful, self-serve product and growth analytics to help you convert,
+        engage, and retain more users. Trusted by over 4,000 startups.
+      </p>
+      <div class="cta">
+        <input type="email" placeholder="Enter your email" />
+        <button>Get started</button>
+      </div>
+      <p class="privacy-text">
+        We care about your data in our <a href="#">privacy policy</a>.
+      </p>
+    </section>
+
+   
+ <section class="chart-section">
+     <div class="hero-image-container"> <img class="usersovertime-image" src="assets/usersovertime.png">
+      <div class="active-users">
+        <img src="assets/percentage.png">
+      </div></div>
+    </section>
+
+    <section class="info-cards">
+      <div class="card">
+          <img src="assets/featuredicon.png" alt="Email Icon" />
+        <h3>Share team inboxes</h3>
+        <p>
+          Whether you have a team of 2 or 200, our shared team inboxes keep
+          everyone on the same page and in the loop.
+        </p>
+      </div>
+
+      <div class="card">
+          <img src="assets/featuredicon2.png" alt="Bolt Icon" />
+        <h3>Deliver instant answers</h3>
+        <p>
+          An all-in-one customer service platform that helps you balance
+          everything your customers need to be happy.
+        </p>
+      </div>
+      <div class="card">
+          <img src="assets/featuredicon3.png" alt="Chart Icon" />
+        <h3>Manage your team with reports</h3>
+        <p>
+          Measure what matters with Untitled’s easy-to-use reports. You can
+          filter, export, and drill down on the data in a couple of clicks.
+        </p>
+      </div>
+    </section>
+
+    <section class="integrations">
+      <h2>Get more value from your tools</h2>
+      <p>
+        Connect your tools, connect your teams. With over 100 apps already
+        available in our directory, your team’s favorite tools are just a click
+        away.
+      </p>
+
+      <div class="integrations-grid">
+        <div class="integration">
+          <img src="assets/notion.png" alt="Notion" />
+          <h3>Notion integration</h3>
+          <p>
+            Work faster and smarter by integrating directly with Notion, right
+            in the app.
+          </p>
+          <a href="#">View integration →</a>
+        </div>
+
+        <div class="integration">
+          <img src="assets/slack.png" alt="Slack" />
+          <h3>Slack integration</h3>
+          <p>
+            Work faster and smarter by integrating directly with Slack, right in
+            the app.
+          </p>
+          <a href="#">View integration →</a>
+        </div>
+
+        <div class="integration">
+          <img src="assets/google_drive.png" alt="Google Drive" />
+          <h3>Google Drive integration</h3>
+          <p>
+            Work faster and smarter by integrating directly with Google Drive,
+            right in the app.
+          </p>
+          <a href="#">View integration →</a>
+        </div>
+
+        <div class="integration">
+          <img src="assets/intercom.png" alt="Intercom" />
+          <h3>Intercom integration</h3>
+          <p>
+            Work faster and smarter by integrating directly with Intercom, right
+            in the app.
+          </p>
+          <a href="#">View integration →</a>
+        </div>
+
+        <div class="integration">
+          <img src="assets/jira.png" alt="Jira" />
+          <h3>Jira integration</h3>
+          <p>
+            Work faster and smarter by integrating directly with Jira, right in
+            the app.
+          </p>
+          <a href="#">View integration →</a>
+        </div>
+
+        <div class="integration">
+          <img src="assets/dropbox.png" alt="Dropbox" />
+          <h3>Dropbox integration</h3>
+          <p>
+            Work faster and smarter by integrating directly with Dropbox, right
+            in the app.
+          </p>
+          <a href="#">View integration →</a>
+        </div>
+      </div>
+    </section>
+    <section class="data-section">
+      <h2>Unleash the full power of data</h2>
+      <p>Everything you need to convert, engage, and retain more users.</p>
+      <div class="data-stats">
+        <div class="stat">
+          <h3>400+</h3>
+          <p>Projects completed</p>
+        </div>
+        <div class="stat">
+          <h3>600%</h3>
+          <p>Return on investment</p>
+        </div>
+        <div class="stat">
+          <h3>10k</h3>
+          <p>Global downloads</p>
+        </div>
+      </div>
+    </section>
+    <section class="analytics-section">
+      <div class="analytics-header">
+        <h2>Cutting-edge features for advanced analytics</h2>
+        <p>
+          Powerful, self-serve product and growth analytics to help you convert,
+          engage, and retain more users. Trusted by over 4,000 startups.
+        </p>
+      </div>
+
+      <div class="analytics-images">
+        <img class="phone-image"  src="assets/iPhone 12 Pro mockup.png" alt="Mobile dashboard" />
+    <div class="dashboard-image-container"><img
+            class="dashboard-image"
+          src="assets/Screen mockup (REPLACE FILL).png"
+          alt="Desktop dashboard"
+        />
+      </div></div>
+
+      <div class="analytics-features">
+        <div class="feature">
+          <img src="assets/featuredicon.png" alt="Inbox Icon" />
+          <h4>Share team inboxes</h4>
+          <p>
+            Keep everyone on the same page and in the loop, no matter the team
+            size.
+          </p>
+          <a href="#">Learn more →</a>
+        </div>
+        <div class="feature">
+          <img src="assets/featuredicon2.png" alt="Answers Icon" />
+          <h4>Deliver instant answers</h4>
+          <p>
+            All-in-one platform to balance everything your customers need to be
+            happy.
+          </p>
+          <a href="#">Learn more →</a>
+        </div>
+        <div class="feature">
+          <img src="assets/featuredicon3.png" alt="Reports Icon" />
+          <h4>Manage your team with reports</h4>
+          <p>
+            Track key metrics easily and drill down on data in a few clicks.
+          </p>
+          <a href="#">Learn more →</a>
+        </div>
+      </div>
+    </section>
+    <section class="pricing-section">
+      <h2>Plans that fit your scale</h2>
+      <p>
+        Simple, transparent pricing that grows with you. Try any plan free for
+        30 days.
+      </p>
+
+      <div class="plans-container">
+        <div class="plan basic">
+          <h3>Basic plan</h3>
+          <p class="price">$10 <span>per month</span></p>
+          <p class="plan-description">Our most popular plan for small teams.</p>
+          <ul class="features">
+            <li>Access to basic features</li>
+            <li>Basic reporting + analytics</li>
+            <li>Up to 10 individual users</li>
+            <li>20GB individual data</li>
+            <li>Basic chat support</li>
+            <li>Attend events</li>
+            <li>Automatic updates</li>
+            <li>Backup your account</li>
+            <li>Audit log and notes</li>
+            <li>Feature requests</li>
+          </ul>
+          <button class="btn">Get started</button>
+        </div>
+
+        <div class="plan business">
+          <h3>Business plan <span class="tag popular">Popular</span></h3>
+          <p class="price">$20 <span>per month</span></p>
+          <p class="plan-description">Advanced features and reporting.</p>
+          <ul class="features">
+            <li>Everything in our basic plan plus...</li>
+            <li>200+ integrations</li>
+            <li>Advanced reporting</li>
+            <li>Up to 20 individual users</li>
+            <li>40GB individual data</li>
+            <li>Priority chat support</li>
+            <li>Advanced custom fields</li>
+            <li>Audit log and data history</li>
+            <li>Backup your account</li>
+            <li>Personalized service</li>
+            <li>+ many more...</li>
+          </ul>
+          <button class="btn">Get started</button>
+        </div>
+      </div>
+    </section>
+    <section class="faq-section">
+      <h2>Frequently asked questions</h2>
+      <p>Everything you need to know about the product and billing.</p>
+
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">
+            Is there a free trial available?
+            <span class="icon">−</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, you can try us for free for 30 days. If you want, we’ll
+              provide you with a free, personalized 30-minute onboarding call to
+              get you up and running as soon as possible.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Can I change my plan later?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              You can upgrade or downgrade your plan at any time. Changes will
+              take effect at the start of the next billing cycle.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            What is your cancellation policy?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              You can cancel at any time, and your subscription will remain
+              active until the end of the current billing period.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Can other info be added to an invoice?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, we can add additional information to invoices, such as
+              company details, VAT numbers, etc. Just contact our support team
+              with the necessary details.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            How does billing work?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Billing is automatic, and you’ll be charged at the beginning of
+              each billing cycle based on the plan you’ve chosen.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            How do I change my account email?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              You can change your account email in the account settings section
+              of your dashboard.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-section">
+        <img src="assets/avatar.png" /> <img src="assets/avatar2.png" /> <img src="assets/avatar3.png" /> 
+        <p>
+          Still have questions? Can’t find the answer you’re looking for? Please
+          chat to our friendly team.
+        </p>
+        <button class="btn">Get in touch</button>
+      </div>
+    </section>
+
+    <div class="trusted-companies">
+      <p>Trusted by 4,000+ companies</p>
+      <div class="logos">
+        <img src="assets/Company logo.png" alt="Coinbase" />
+        <img src="assets/Company logo (1).png" alt="Spotify" />
+        <img src="assets/Company logo (2).png" alt="Slack" />
+        <img src="assets/Company logo (3).png" alt="Dropbox" />
+        <img src="assets/Company logo (4).png" alt="Webflow" />
+        <img src="assets/Company logo (5).png" alt="Zoom" />
+      </div>
+    </div>
+
+    <section class="free-trial">
+      <div class="container">
+        <h1>Start your free trial</h1>
+        <p>Join over 4,000+ startups already growing with Untitled.</p>
+        <div class="buttons">
+          <button class="learn-more">Learn more</button>
+          <button class="get-started">Get started</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Features</a></li>
+            <li>
+              <a href="#">Solutions <span class="new-tag">New</span></a>
+            </li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Releases</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Media kit</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Help centre</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Social</h4>
+          <ul>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">AngelList</a></li>
+            <li><a href="#">Dribbble</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Licenses</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column app-links">
+          <h4>Get the app</h4>
+          <a href="#"><img src="assets/Mobile app store badge.png" alt="App Store" /></a>
+          <a href="#"><img src="assets/Mobile app store badge (1).png" alt="Google Play" /></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+       
+          <img src="assets/Logo.png" />
+        
+        <p>© 2017 Untitled UI. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
